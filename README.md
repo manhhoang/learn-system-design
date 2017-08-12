@@ -1109,6 +1109,7 @@ X-RateLimit-Reset: 1404429213925
 * HATEOAS: Hypertext As The Engine of Application State
 	- There should be a single endpoint for the resource, and all of the other actions you’d need to undertake should be able to be discovered by inspecting that resource.
 	- People are not doing this because the tooling just isn't there.
+* Streaming REST API: A streaming API differs from the normal REST API in the way that it leaves the HTTP connection open for as long as possible(i.e. "persistent connection"). It pushes data to the client as and when it's available and there is no need for the client to poll the requests to the server for newer data. This approach of maintaining a persistent connection reduces the network latency significantly when a server produces continous stream of data like say, today's social media channels. These APIs are mostly used to read/subscribe to data.
 
 
 
