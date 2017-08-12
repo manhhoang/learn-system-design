@@ -189,6 +189,7 @@
 		- [Scaling Memcached at Facebook](#scaling-memcached-at-facebook)
 - [Architecture](#architecture)
 	- [Lambda architecture](#lambda-architecture)
+	- [Reactive Streams](#reactive-streams)
 - [Building blocks](#building-blocks)
 	- [Load balancer](#load-balancer)
 		- [Hardware vs software](#hardware-vs-software)
@@ -216,7 +217,6 @@
 	- [Stream Processing](#stream-processing)
 		- [Samza](#samza)
 		- [Storm](#storm)
-- [References](#references)
 
 <!-- /MarkdownTOC -->
 
@@ -1502,6 +1502,7 @@ public V readSomeData(K key) {
 
 # Architecture
 ## Lambda architecture
+## Reactive Streams
 
 # Building blocks
 ## Load balancer
