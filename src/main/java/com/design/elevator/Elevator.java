@@ -1,4 +1,4 @@
-package com.elevator;
+package com.design.elevator;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.elevator;
+package com.design.elevator;
 
 public class Request {
     public long time;
