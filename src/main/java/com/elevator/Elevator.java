@@ -18,18 +18,6 @@ public class Elevator {
     private Thread processingThread;
     private Thread listeningThread;
 
-    public class Request {
-        public long time;
-        public Integer floor;
-        public Direction direction;
-
-        public Request(long time, Integer floor, Direction direction) {
-            this.time = time;
-            this.floor = floor;
-            this.direction = direction;
-        }
-    }
-
     public enum Direction {
         UP, DOWN
     }
